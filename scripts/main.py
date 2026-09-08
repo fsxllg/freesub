@@ -789,7 +789,7 @@ def export_subscriptions(verified_nodes):
     return len(all_links), len(res_links)
 
 def update_readme():
-    repo_name = os.environ.get("GITHUB_REPOSITORY", "hezhanleiok/freesub").strip()
+    repo_name = os.environ.get("GITHUB_REPOSITORY", "fsxllg/freesub").strip()
     cache_bust = int(time.time())
     
     def count_file(path):
@@ -873,7 +873,7 @@ def update_readme():
 export default {
   async fetch(request) {
     const GITHUB_TOKEN = "ghp_你的GitHub永久访问令牌";
-    const OWNER = "hezhanleiok";
+    const OWNER = "fsxllg";
     const REPO = "freesub";
     const BRANCH = "main";
 
