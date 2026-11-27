@@ -15,7 +15,7 @@ proxies:
   servername: 1v5Vp5jsQ611A5dsm.PAges.dEV
   network: ws
   ws-opts:
-    path: /vl/fbo164EXEqNcjQ9WdWcK?ed=2560
+    path: /vl/fbo164EXEqNcjQ9WdWcK?ed=2560fp=chrome
     headers:
       Host: 1v5Vp5jsQ611A5dsm.PAges.dEV
 proxy-groups:
